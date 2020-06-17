@@ -1,0 +1,32 @@
+{
+  "name": "codesmithquiz",
+  "version": "1.0.0",
+  "description": "An example of a quiz system using Serverless",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.379.0",
+    "sanitize-html": "^1.20.0"
+  },
+  "devDependencies": {
+    "serverless-websockets-plugin": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardHill/codesmithquiz.git"
+  },
+  "keywords": [
+    "serverless",
+    "lambda",
+    "quiz",
+    "node"
+  ],
+  "author": "R.M.Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardHill/codesmithquiz/issues"
+  },
+  "homepage": "https://github.com/RichardHill/codesmithquiz#readme"
+}
