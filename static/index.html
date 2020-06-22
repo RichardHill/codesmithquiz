@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript" src="./js/base.js"></script>
+  <head>
+    <title>Codesmith Quiz!</title>
+  </head>
+  <body>
+    <p>
+      Welcome to the CodeSmith Quiz!
+    </p>
+    <form>
+      <label>Message:</label><br />
+      <input type="text" id="fmessage" name="fmessage" value="" /><br />
+    </form>
+    <input
+      type="submit"
+      value="Send"
+      onclick="sendMessage(document.getElementById('fmessage').value)"
+    />
+  </body>
+</html>

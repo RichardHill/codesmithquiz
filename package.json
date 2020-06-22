@@ -7,9 +7,6 @@
     "aws-sdk": "^2.379.0",
     "sanitize-html": "^1.20.0"
   },
-  "devDependencies": {
-    "serverless-websockets-plugin": "^1.0.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/RichardHill/codesmithquiz/issues"
   },
-  "homepage": "https://github.com/RichardHill/codesmithquiz#readme"
+  "homepage": "https://github.com/RichardHill/codesmithquiz#readme",
+  "devDependencies": {
+    "serverless-s3-sync": "^1.14.3"
+  }
 }
