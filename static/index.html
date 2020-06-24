@@ -4,6 +4,35 @@
   <head>
     <title>Codesmith Quiz!</title>
   </head>
+  <style>
+    #customers {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    #customers td,
+    #customers th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    #customers tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    #customers tr:hover {
+      background-color: #ddd;
+    }
+
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #4caf50;
+      color: white;
+    }
+  </style>
   <body>
     <p>
       Welcome to the CodeSmith Quiz!
@@ -17,5 +46,17 @@
       value="Send"
       onclick="sendMessage(document.getElementById('fmessage').value)"
     />
+
+    <table id="messageTable">
+      <thead>
+        <th>Time</th>
+        <th>Name</th>
+        <th>Message</th>
+      </thead>
+      <tbody>
+        <tr></tr>
+      </tbody>
+    </table>
+    <button type="button" onclick="addTableRow()">Try it</button>
   </body>
 </html>
